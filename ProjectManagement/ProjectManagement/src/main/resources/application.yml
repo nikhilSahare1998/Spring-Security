@@ -1,0 +1,6 @@
+keycloak:
+  realm: ProjectManagementApp
+  auth-server-url: http://localhost:8080/auth/
+  resource: projectmanagement
+  public-client: true
+  bearer-only: true
